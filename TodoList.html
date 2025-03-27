@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/TodoList.css">
+    <title>TODOLIST</title>
+</head>
+<body>
+    <P>TodoList practice</P>
+    <a class="html-link" href="/HTML/index.html">Rock-Paper-Scissors Game</a>
+     <div class="input">
+     <input onkeydown="if (event.keyCode == 13) {
+        addTodo();
+     }" placeholder="Todolist" class="js-input1">
+     <input onkeydown="if (event.keyCode == 13) {
+        addTodo();
+     }" type="date" class="js-date date">
+     <button onclick="
+    addTodo();
+    " class="add-button">Add</button>
+</div>
+    <div class="js-div div-input"></div>
+
+
+
+
+<script src="/JAVASCRIPT/TodoList.js"></script>
+</body>
+</html>

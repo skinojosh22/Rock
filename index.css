@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+
+.option-button{
+    cursor: pointer;
+    background-color: transparent;
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+.image-option{
+    height: 120px;
+    width: 120px;
+}
+
+img{
+    width: 100px;
+}
+
+.js-score, .js-result, .js-option{
+    color: white;
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a{
+    color: rgb(174, 255, 0);
+}
